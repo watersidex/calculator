@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="pryam">
+            <h2>Об'єм речовини</h2>
+            <input class="elem" type="text" placeholder="M" id="elementM">
+            <input name="material" type="radio" value="Al">Алюміній
+            <input name="material" type="radio" value="Fe">Залізо
+            <input name="material" type="radio" value="Cu">Мідь
+            <input name="material" type="radio" value="Pb">Свинець
+            <input class="result" type="button" value="Розрахувати" id="calcM">
+            <p id="elementV"></p>
+            <a class="result" href="index.html">Повернутись</a>
+        </div>
+    </div>
+
+    <script src="volume.js"></script>
+</body>
+
+</html>
