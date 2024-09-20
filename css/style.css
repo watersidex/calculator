@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding-top: 25px;
+    font-family: Montserrat;
+    cursor: url('../img/cursor.cur'), auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+    text-align: center;
+    padding: 0 30px 30px;
+    background-color: aliceblue;
+    border: aliceblue 5px solid;
+    border-radius: 15px;
+    box-shadow: 0 0 5rem rgba(13, 71, 161);
+    cursor: url('../img/cursor.cur'), auto;
+
+}
+
+.pryam,
+.para,
+.choose {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.elem,
+.result,
+.a {
+    border: #0033FF 5px solid;
+    border-radius: 15px;
+    color: darkblue;
+    background-color: aliceblue;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 5px;
+    cursor: url('../img/cursor.cur'), auto;
+
+}
+
+.result:hover,
+.elem:hover,
+.a:hover {
+    border: greenyellow 5px solid;
+    color: darkgreen;
+}
