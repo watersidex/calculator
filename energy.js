@@ -44,4 +44,10 @@ elementCalcM.onclick = () => {
     //let v = (+elementM.value /  +ro)
     //let vo = v.toString().slice(0, 5);
     //elementV.innerHTML = "Об'єм : " + vo + "см3"
+
+    let current = document.querySelector("#current span")
+    let crossSection = document.querySelector("#cross-section span")
+
+    current.innerText = 1000 * totalPower / (220) + " A"
+    crossSection.innerText = Math.round(10 * parseFloat(current.innerText) / 6) / 10 + "мм2"
 }

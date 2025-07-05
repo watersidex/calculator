@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Calculator</title>
 </head>
@@ -21,11 +21,14 @@
             <h2>Споживання електроенергії</h2>
             <input class="elem" type="text" placeholder="Time" id="elementTime">
             <input class="elem" type="text" placeholder="Price" id="elementPrice">
-            <input type="checkbox" class="checkbox" value="2.2">Пральна машина
-            <input type="checkbox" class="checkbox" value="2">Електрочайник
-            <input type="checkbox" class="checkbox" value="0.4">Персональний компьютер
-            <input type="checkbox" class="checkbox" value="0.01">Лампа світлодіодна
-            <input type="checkbox" class="checkbox" value="0.1">LCD телевізор
+            <label><input type="checkbox" class="checkbox" value="2.2">Пральна машина</label>
+            <label><input type="checkbox" class="checkbox" value="2">Електрочайник</label>
+            <label><input type="checkbox" class="checkbox" value="0.4">Персональний компьютер</label>
+            <label><input type="checkbox" class="checkbox" value="0.01">Лампа світлодіодна</label>
+            <label><input type="checkbox" class="checkbox" value="0.1">LCD телевізор</label>
+            <p>Розрахунок кабелю, який потрібний:</p>
+            <p id="current">Струм <span></span></p>
+            <p id="cross-section">Переріз кабелю <span></span></p>
             <input class="result" type="button" value="Розрахувати" id="calcT">
             <p id="elementW"></p>
             <p id="totalP"></p>

@@ -50,3 +50,8 @@ body {
     border: greenyellow 5px solid;
     color: darkgreen;
 }
+
+label {
+    text-align: left;
+    margin-top: 10px;
+}
