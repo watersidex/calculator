@@ -41,7 +41,6 @@ body {
     text-decoration: none;
     margin: 5px;
     cursor: url('../img/cursor.cur'), auto;
-
 }
 
 .result:hover,
@@ -53,5 +52,5 @@ body {
 
 label {
     text-align: left;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
